@@ -20,7 +20,7 @@ body{
   background-color: #fafafa; /* Bakgrundsfärg nav */
   display: flex; /* Säger hur komponenterna ska röras när skärmen rörs */
   justify-content: center; /* Placerar alla komponenter med medelpunkt i center */
-  padding: 1rem; /* Avstånd mellan annat, på 1 'root em' ~ 16px  */
+  padding-bottom: 2rem; /* Avstånd mellan annat, på 1 'root em' ~ 16px  */
   box-shadow: 2px 2px 4px rgba(0,0,0,0.1); /* Skugga runt och främst under lådan nav. Färg enl rgba. */
   position: absolute; /* Säger hur positionen ska vara, hur den ska påverkas. */
 }

@@ -59,18 +59,21 @@ body{
 
 
 }
-#firstDown {
+div #firstDown {
 position: absolute;
-
+width: 60px;
+height: 30px;
+background-color: red;
 
 }
 #box2{
 
 height: 500px;
 width: 100%;
-position:relative;
 
+background-color: red;
 }
+
 header{
   width: 100%; /* Bredd för <header> */
   height: 150px; /* Höjd för <header> */

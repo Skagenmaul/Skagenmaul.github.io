@@ -15,7 +15,7 @@ body{
   background-color: blue; */
   height: 10060px;
 }
-.nav {
+#nav {
   width:100%;
   background-color: #fafafa; /* Bakgrundsfärg nav */
   display: flex; /* Säger hur komponenterna ska röras när skärmen rörs */
@@ -24,7 +24,7 @@ body{
   box-shadow: 2px 2px 4px rgba(0,0,0,0.1); /* Skugga runt och främst under lådan nav. Färg enl rgba. */
   position: absolute; /* Säger hur positionen ska vara, hur den ska påverkas. */
 }
-.nav a {
+#nav a {
   height: 32px; /* Höjd på alla a i .nav */
   width: auto; /* Bredd är auto då storleken varierar mellan ikonerna */
   margin: 0 3rem; /* distans mellan kanter osv till a */
@@ -34,7 +34,7 @@ body{
   opacity: 0.7; /* Synlighet för a och dess innehåll i neutralt läge */
   transition: 0.25s; /* Säger hur lång tid det ska ta för a att förändras om något händer */
 }
-.nav a:hover {
+#nav a:hover {
   opacity: 1; /* Förändring i synlighet på a och dess innehåll då muspekaren svävar över omnämnd */
 }
 .firstImageOuter{
@@ -88,4 +88,47 @@ main{
   width: 100%; /* Bredd för <main> */
   height: 620px; /* Höjd för <main> */
   background-color: green; /* Bakgrundsfärg för <main> */
+}
+
+.overlay { /* Påverkar overlayen i det stora hela. */
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 1.0s;
+}
+
+.overlay-content { /* Påverkar innehållet i overlay (text bla.)*/
+  position: relative;
+  top: 20%;
+  left: 45%;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.overlay a { /* Påverkar länkarna (utan hover) */
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white;
+  display: block;
+  transition: 0.5s;
+
+}
+
+.overlay a:hover, .overlay a:focus { /* Påverkar länkarnas när muspekaren (hoverar) över dem. */
+  color: green;
+  transition: 1.0s;
+}
+
+.overlay .closebtn { /* Påverkar krysset? */
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
 }

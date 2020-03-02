@@ -19,5 +19,14 @@ console.log("hit");
         scrollTop: $("#wrapper").offset().top
     }, 2000);
 });
+
+// function openNav(){
+//   document.getElementById("homeNav").style.height = "50%";}
+//
+//
+// }
+
+
+
 //test
 //test2

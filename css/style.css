@@ -1,0 +1,17 @@
+#wrapper{ /*måste fixa flexbox eller grid*/
+  width: 100%;
+  height: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+background-image: linear-gradient(orange, yellow, orange);
+}
+
+#nav{
+width: 100px;
+height: 300px;
+position: fixed;
+top: 20px; left: 1145px;
+background-color: blue;
+}

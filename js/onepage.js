@@ -1,12 +1,18 @@
-$("#wrapper").css("overflow", "hidden");
-$("#imgs").css("overflow", "show");
+$("#imgs").css("overflow","hidden"); // gömmer allt utanför boxen
+var nummer = 0; //variabel som används för att veta vart i slider man är
+var element = document.querySelector("#slider");
+$("#shrimps").click(function(){
 
-var nummer = 0;
 
-$(document).ready(function () {
-  if(nummer==0){
+    $("#imgs").animate({bottom:"+504px"});
+    $("#slider").css("background-color", "green");
 
-      $("#imgs").animate({bottom:"+204"},500,'linear');
-      nummer=nummer+1;
-  }
-}
+
+  console.log("hej");
+
+});
+$("nav").click(function(){
+
+  element.scrollIntoView({ behavior: 'smooth'});
+
+});

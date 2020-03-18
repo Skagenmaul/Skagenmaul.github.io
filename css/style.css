@@ -96,55 +96,51 @@ position: absolute;
   justify-content: center;
   opacity: 1;
   border-radius: 20px;
-  width: 60%;
+  width: 75%;
   height: 400px;
   background-image:radial-gradient(blue, darkblue);
 }
 #imgs{
   justify-content: center;
   height: 400px;
-  width: 50%;
+  width: 40%;
   position: relative;
+  background-size: cover;
 }
 .sprite {
     background-image: url('../imgs/spritesheet.png');
     background-repeat: no-repeat;
     display: block;
 }
-
 .sprite-boat {
     width: 400px;
     height: 400px;
     background-position: -5px -5px;
 }
-
 .sprite-grilled {
     width: 400px;
     height: 400px;
     background-position: -415px -5px;
 }
-
 .sprite-hand {
     width: 400px;
     height: 400px;
     background-position: -5px -415px;
 }
-
 #information{
+  align-self: center;
   text-align: center;
   border-radius: 2px;
-  border-color: black;
-  border-width: thin;
-  border-style: solid;
-  font-size: 1.5vw;
+  font-size: 25px;
   justify-content: center;
   overflow: hidden;
   height: 99.5%;
-  width: 30%;
+  width: 400px;
+  font-style: italic;
+  border-width: thin;
   background: rgba(100, 210, 200, 0.5);
 }
 #menu{
-
   align-self: center;
   margin: auto;
   justify-content: center;
@@ -156,9 +152,23 @@ position: absolute;
 #del1{
   width: 46%;
   font-size:2vw;
-
 }
 #del2{
   width: 46%;
   font-size:2vw;
+}
+
+@media screen and (max-width: 1554px) {
+  #slider{
+    width: 80%;
+    transition: 1.0s;
+  }
+}
+@media screen and (max-width: 1276px) {
+#slider{
+  justify-content:space-around;
+  margin-right: 20px;
+  margin-left: 20px;
+  height: 400px;
+}
 }

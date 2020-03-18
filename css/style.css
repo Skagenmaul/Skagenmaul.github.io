@@ -22,7 +22,7 @@ background: rgba(171, 205, 239, 0.6);
 width: 100px;
 height: 300px;
 position: fixed;
-top: 20px; left: 1145px;
+top: 20px; left: 94%;
 }
 #welcome{
   font-family: 'East Sea Dokdo';
@@ -43,6 +43,7 @@ top: 20px; left: 1145px;
   background-image: linear-gradient(darkblue,black)
 }
 #slider{
+    overflow:hidden;
   display:flex;  justify-content: center;
   opacity: 0.8;
   border-radius: 20px;

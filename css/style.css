@@ -52,9 +52,7 @@ nav{
   height:33%;
   font-size:1vw;
   border-style: solid;
-  border-width: thin;
-
-
+  border-width: thin; 
 }
 #welcome{
   margin-top: -2vw;
@@ -121,11 +119,10 @@ nav{
   align-self: center;
   margin: auto;
   justify-content: center;
-
-width: 90%;
-height: 700px;
-display: flex;
-background: rgba(100, 210, 200, 0.3);
+  width: 90%;
+  height: 700px;
+  display: flex;
+  background: rgba(100, 210, 200, 0.3);
 }
 #del1{
   width: 46%;

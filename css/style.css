@@ -4,12 +4,16 @@ background-color: black;
   height: 2000px;
   margin: 0px;
   padding: 0px;
+  background-image: linear-gradient(lightblue ,blue,darkblue,black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #flex-container{
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 1800px;
+  height: 2000px;
 }
 body {
 margin: 0px;
@@ -24,29 +28,41 @@ position: fixed;
 top: 20px; left: 94%;
 }
 #welcome{
+  margin-top: -2vw;
   text-align: center;
   font-family: 'East Sea Dokdo';
-  font-size: 150px;
+  font-size:10vw;
   letter-spacing: 10px;
-  color: darkgreen;
+  color: black;
   width: 100%;
-  height: 320px;
-  background-image: linear-gradient(lightblue,darkblue)
+  height: 200px;
 }
 
-
+#quote{
+font-family: 'Dancing Script', cursive;
+  align-self: center;
+  text-align: center;
+  font-size:3vw;
+  font-style: italic;
+  width: 80%;
+  height: 11vw;
+border-color: black;
+border-style: solid;
+border-width: thin;
+border-radius: 90px;
+}
 #shrimps{
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 850px;
-  background-image: linear-gradient(darkblue,black)
+  height: 500px;
 }
 #slider{
-  overflow:hidden;
+
   display:flex;
   justify-content: center;
-  opacity: 0.8;
+  opacity: 1;
   border-radius: 20px;
   width: 60%;
   height: 400px;
@@ -54,20 +70,23 @@ top: 20px; left: 94%;
 }
 #imgs{
   justify-content: center;
-  height: 1400px;
+  height: 400px;
   width: 50%;
   position: relative;
 }
 #information{
   text-align: center;
   border-radius: 2px;
-  border-color: b;
+  border-color: black;
+  border-width: thin;
   border-style: solid;
   font-size: 30px;
   justify-content: center;
   overflow: hidden;
-  height: 98.2%;
+  height: 99.5%;
   width: 30%;
   background: rgba(100, 210, 200, 0.5);
+}
+#menu{
 
 }

@@ -1,5 +1,5 @@
 $("#wrapper").css("overflow", "hidden");
-$("#imgs").css("overflow", "hidden");
+$("#slider").css("overflow", "hidden");
 
 var nummer = 0;
 

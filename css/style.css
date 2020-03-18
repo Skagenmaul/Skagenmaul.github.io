@@ -53,8 +53,11 @@ nav{
   font-size:1vw;
   border-style: solid;
   border-width: thin;
-
-
+}
+p{
+position: absolute;
+  top: 300px; left: 100;
+  font-size: 50px;
 }
 #welcome{
   margin-top: -2vw;
@@ -109,7 +112,7 @@ nav{
   border-color: black;
   border-width: thin;
   border-style: solid;
-  font-size: 30px;
+  font-size: 1.5vw;
   justify-content: center;
   overflow: hidden;
   height: 99.5%;
@@ -121,11 +124,10 @@ nav{
   align-self: center;
   margin: auto;
   justify-content: center;
-
-width: 90%;
-height: 700px;
-display: flex;
-background: rgba(100, 210, 200, 0.3);
+  width: 90%;
+  height: 700px;
+  display: flex;
+  background: rgba(100, 210, 200, 0.3);
 }
 #del1{
   width: 46%;

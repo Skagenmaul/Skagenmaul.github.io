@@ -1,15 +1,28 @@
 $("#wrapper").css("overflow", "hidden");
 $("#slider").css("overflow", "hidden");
 
-var nummer = 0;
+var y=0;
 
-$("#slider").click(function () {
-  if(nummer==0){
+$("#imgs").click(function () {
 
-      $("#imgs").animate({bottom:"+404"},500,'linear');
+  if(y==0){
+      y=y+404;
+      $("#imgs").animate({bottom:y},500,'linear');
+      nummer=nummer+1;
+      console.log(nummer);
+  }
+  else if(y==404){
+      y=y+404;
+      $("#imgs").animate({bottom:y},500,'linear');
       nummer=nummer+1;
   }
+  else{
+    y=0;
+    $("#imgs").animate({bottom:y},500,'linear');
+  }
+
 });
+
 $("#nav1").click(function() {
     $('html, body').animate({
         scrollTop: $("#welcome").offset().top

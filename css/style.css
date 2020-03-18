@@ -52,10 +52,10 @@ top: 20px; left: 1145px;
 }
 #imgs{
   justify-content: center;
-  overflow: hidden;
+  overflow:hidden;
   height: 400px;
   width: 50%;
-  background-color: red;
+  position: relative;
 
 }
 #information{

@@ -1,9 +1,9 @@
 $("#wrapper").css("overflow", "hidden");
-$("#imgs").css("overflow", "show");
+$("#imgs").css("overflow", "hidden");
 
 var nummer = 0;
 
-$(document).ready(function () {
+$(document).click(function () {
   if(nummer==0){
 
       $("#imgs").animate({bottom:"+404"},500,'linear');

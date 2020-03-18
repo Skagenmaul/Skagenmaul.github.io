@@ -6,13 +6,13 @@ var y=0;
 $("#imgs").click(function () {
 
   if(y==0){
-      y=y+404;
+      y=y+400;
       $("#imgs").animate({bottom:y},500,'linear');
       nummer=nummer+1;
       console.log(nummer);
   }
-  else if(y==404){
-      y=y+404;
+  else if(y==400){
+      y=y+400;
       $("#imgs").animate({bottom:y},500,'linear');
       nummer=nummer+1;
   }

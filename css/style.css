@@ -25,7 +25,7 @@ nav{
   width: 100px;
   height: 100px;
   position: fixed;
-  top: 20px; left: 94%;
+  top: 20px; left: 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -140,6 +140,11 @@ position: absolute;
   border-width: thin;
   background: rgba(100, 210, 200, 0.5);
 }
+#recens{
+  height: 0px;
+  width: 100%;
+  font-size: 0px;
+}
 #menu{
   align-self: center;
   margin: auto;
@@ -171,4 +176,43 @@ position: absolute;
   margin-left: 20px;
   height: 400px;
 }
+@media screen and (max-width: 1070px){
+  #slider {
+      width: 90%;
+  }
+}
+@media screen and (max-width: 952px) {
+
+#slider{
+
+  width: 400px;
+
+}
+#imgs{
+  justify-content: center;
+  width: 100%;
+}
+#information{
+    height: 0;
+    width: 0;
+    font-size: 0;
+}
+#recens{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  background: rgba(100, 210, 200, 0.5);
+  height: auto;
+  width: 90%;
+  font-style: italic;
+  border-radius: 20px;
+
+}
+.text1, .text2, .text3{
+  font-size: 3vw;
+  width: 33%;
+  margin: 0;
+
+}
+
 }
